@@ -6,7 +6,9 @@
   "license": "MIT",
   "scripts": {
     "test": "mocha server/**/*.test.js",
-    "test-watch": "nodemon --exec yarn test"
+    "test-watch": "nodemon --exec yarn test",
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
   },
   "dependencies": {
     "body-parser": "^1.18.2",
