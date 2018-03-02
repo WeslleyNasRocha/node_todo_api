@@ -5,6 +5,12 @@
   "author": "Weslley Rocha <weslleytato.12@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "mongodb": "^3.0.2"
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.2",
+    "mongoose": "^5.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
   }
 }
